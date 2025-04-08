@@ -2,8 +2,6 @@
 
 int calculate_sum_of_elements(int** matrix, int row, int column, int* columns, int* sum_of_elemnts)
 {
-	/*columns = new int[column];
-	sum_of_elemnts = new int[column];*/
 	int columns_id = 0;
 
 	for (int i = 0; i < column; i++)

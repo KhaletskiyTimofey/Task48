@@ -13,18 +13,6 @@ void init_matrix(int** matrix, int row, int column, int start, int end)
 	}
 }
 
-string array_to_string(int* array, int size)
-{
-	string array_string = "";
-
-	for (int i = 0; i < size; i++)
-	{
-		array_string += to_string(array[i] + 1) + " ";
-	}
-
-	return array_string;
-}
-
 string matrix_to_string(int** matrix, int row, int column)
 {
 	string matrix_string = "";
